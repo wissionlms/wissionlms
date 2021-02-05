@@ -30,12 +30,16 @@
 
 a {
     text-decoration: none;
-    font-family: FuturaMdBt;
+    
 }
 
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f5fb;
+    
 }
 
 .colorclass {
@@ -326,6 +330,14 @@ body {
 .contentify a {
     padding: 12px;
 }
+#one{
+    border-radius: 50px;
+    background: #191970;
+    box-shadow:  5px 5px 10px #373797,
+             -2px -2px 4px white;
+    margin-right: 20px;
+
+}
 
 @media only screen and (max-width:900px) {}
 
@@ -464,4 +476,7 @@ body {
 }
 #head{
     margin-top: 60px;
+}
+#what{
+    margin-right: -20px;
 }
